@@ -21,7 +21,6 @@ A simple Grocery Management System built using **Node.js, Express, and PostgreSQ
 
 - **Backend:** Node.js, Express.js
 - **Database:** PostgreSQL
--  Sequelize 
 - **Authentication:** JWT 
 
 
