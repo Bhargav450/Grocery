@@ -17,7 +17,8 @@ exports.viewAvailableGroceries = async (req, res) => {
 exports.placeOrder = async (req, res) => {
   const transaction = await sequelize.transaction();
   try {
-    const { userId, items } = req.body;
+    const userId = req.user.id;
+    const {  items } = req.body;
     let totalPrice = 0;
     let processedItems = [];
 
