@@ -31,3 +31,4 @@ A simple Grocery Management System built using **Node.js, Express, and PostgreSQ
 
 git clone https://github.com/Bhargav450/Grocery.git
 cd Grocery
+npm run start
